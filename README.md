@@ -9,17 +9,18 @@ in your current cursor coordinates (Windows only).
 
 ### Setup
 
-1. Clone this repository.
+1. Clone this repository, open a terminal instance and go
+   the cloned repository path.
 
-2. Run "install-requirements.bat" file.
+2. Run the command below:
 
+```console
+pip install -r requirements.txt
 ```
-./install-requirements.bat
-```
 
-3. Run main.py.
+3. Run main.py:
 
-```shell
+```console
 python main.py
 ```
 
@@ -31,7 +32,7 @@ python main.py
 5. Open a terminal instance and type "cha-cur", this will
    automatically execute the python script.
    
-```
+```console
 cha-cur
 ```
 
