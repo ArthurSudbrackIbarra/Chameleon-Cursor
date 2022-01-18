@@ -1,4 +1,5 @@
 # Imports.
+import os
 from pynput.keyboard import Listener, Key
 import pyautogui
 import PIL.ImageGrab
@@ -22,9 +23,11 @@ def copy_to_clipboard(text):
     pyperclip.copy(text)
 
 
-# Function to play a wav file in a certain path.
-def play_audio(path):
-    wave_obj = simpleaudio.WaveObject.from_wave_file(path)
+# Function to play a wav file in the same path as this program.
+def play_audio(audio_name):
+    directory = os.path.dirname(__file__)
+    file = os.path.join(directory, audio_name)
+    wave_obj = simpleaudio.WaveObject.from_wave_file(file)
     wave_obj.play()
 
 
@@ -34,6 +37,7 @@ def on_press(key):
         current_cursor_coordinates = pyautogui.position()
         rgb_tuple = get_pixel_color(current_cursor_coordinates)
         hex_value = rgb_to_hex(rgb_tuple)
+        print(f"Hexadecimal Color Value: {hex_value}")
         copy_to_clipboard(hex_value)
         play_audio("color_copied.wav")
 
@@ -41,7 +45,7 @@ def on_press(key):
 # Main function.
 def main():
     with Listener(on_press=on_press) as listener:
-        print("Now listening to keyboard input!")
+        print("\nNow listening to keyboard input!\n")
         listener.join()
 
 
