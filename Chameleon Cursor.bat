@@ -8,5 +8,5 @@ if %exit_code%==1 (
     echo:
     echo You're missing required modules, they'll be installed now:
     echo:
-    pip install -r %~dp0.program-files/requirements.txt && %~dp0.program-files/main.py
+    pip install -r %~dp0.program-files/requirements.txt && python %~dp0.program-files/main.py
 )
