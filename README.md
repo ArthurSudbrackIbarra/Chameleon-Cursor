@@ -14,7 +14,7 @@ in your current cursor coordinates (Windows only).
 2. Double click the file "Chameleon Cursor.bat". Required modules will be automatically installed
    in case you don't have them in your machine.
 
-![image](https://user-images.githubusercontent.com/69170322/150008319-6ff802d3-1e08-4dad-a689-ff198f003947.png)
+![image](https://user-images.githubusercontent.com/69170322/150013566-ee714d36-2662-47a8-a101-8c626e488993.png)
 
 ### How to Use
 
