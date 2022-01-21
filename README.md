@@ -20,7 +20,8 @@ in your current cursor coordinates (Windows only).
 
 Move your cursor to the desired color and press **right shift**. After
 doing that, the color hexadecimal value will automatically be copied
-to your clipboard, and you will be able to paste it with Ctrl + V.
+to your clipboard, and you will be able to paste it with Ctrl + V. You 
+can also switch between audio on/off by pressing the **arrow up** key.
 
 ### Credits
 

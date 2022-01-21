@@ -41,6 +41,7 @@ def init_audio_settings():
     first_line = settings_file.readlines()[0]
     if first_line.find("on") == -1:
         is_audio_on = False
+    settings_file.close()
 
 
 # Function to toggle the program audio (on -> off / off -> on).
