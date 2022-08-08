@@ -22,7 +22,3 @@ Move your cursor to the desired color and press **right shift**. After
 doing that, the color hexadecimal value will automatically be copied
 to your clipboard, and you will be able to paste it with Ctrl + V. You 
 can also switch between audio on/off by pressing the **arrow up** key.
-
-### Credits
-
-Audio by my beautiful stunning mesmerizing absolutely gorgeous lovely smart talented angelic girlfriend.
